@@ -1,0 +1,22 @@
+# AI Meme Caption Generator - Requirements
+# College Mini Project
+# ============================================
+
+# Core Flask Dependencies
+Flask==3.0.3
+Flask-CORS==4.0.1
+Werkzeug==3.0.3
+
+# Optional: AI/NLP Enhancement
+# Uncomment to enable GPT-2 based generation
+torch==2.1.0
+transformers==4.40.0
+
+# Image Processing (optional - for future enhancements)
+Pillow==10.3.0
+
+# Development Tools
+python-dotenv==1.0.1
+
+# Production Server (for deployment)
+gunicorn==22.0.0
